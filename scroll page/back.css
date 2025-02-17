@@ -1,0 +1,10 @@
+#img{
+    height: 1100px;
+    background-color: pink;
+    border: 2px solid yellow;
+    background-image: url(see.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200px;
+    background-attachment: scroll;
+}
