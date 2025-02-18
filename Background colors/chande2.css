@@ -1,0 +1,28 @@
+/* h1
+{
+border: top width 10px ;
+border-top-color: red;
+border-top-style: solid;
+
+border: bottom-width 20px ;
+border-bottom-color: blue;
+border-bottom-style: solid;
+
+border: left width 30px ;
+border-left-color: orange;
+border-left-style: solid;
+
+border: right width 40px ;
+border-right-color: red;
+border-right-style: solid;
+} */
+
+h1
+{
+    border: 20px blue solid;
+    width: fit-content;
+    padding-top: 20;
+    padding-bottom: 40;
+    padding-left: 60;
+    padding-right: 80;
+}

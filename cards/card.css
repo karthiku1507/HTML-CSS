@@ -1,0 +1,11 @@
+.card{
+    height: fit-content;
+    width:500px;
+    border:2px solid black;
+    text-align: center;
+    background-color:red;
+
+}
+.card:hover{
+    background-color: green;
+}

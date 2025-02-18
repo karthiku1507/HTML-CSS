@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function passw(){
+                var password=document.getElementById("but");
+                var x=document.getElementById("pass");
+                if(x.type=="pass"){
+                    x.type="text"
+                }
+
+        
+            else{
+                x.type="pass"
+
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <input type="password" id="pass" placeholder="enter password">
+        <button onclick="passw()" id="but">click on me</button>
+    </body>
+</html>

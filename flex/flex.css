@@ -1,0 +1,39 @@
+.flex1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 2px solid palegreen;
+}
+
+.flex2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid peru;
+   
+}
+
+.flex3 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid lawngreen;
+}
+
+.flex {
+    height: 700px;;
+    border: 3px solid violet;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+    
+}
+
+ @media screen and (min-width:100px) {
+    body{
+        background-color:wheat;
+    }
+ }

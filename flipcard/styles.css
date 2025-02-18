@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+header .search-bar input {
+    padding: 8px;
+    width: 300px;
+}
+
+header .search-bar button {
+    padding: 8px 12px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header .nav-links a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner Section */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Categories Section */
+.categories {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.categories .category-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.categories .category img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* Products Section */
+.products {
+    padding: 20px;
+}
+
+.products .product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.products .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.products .product img {
+    width: 150px;
+    height: 150px;
+}
+
+.products .product button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.products .product button:hover {
+    background-color: #1e5bdb;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

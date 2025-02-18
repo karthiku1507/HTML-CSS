@@ -1,0 +1,33 @@
+h1
+{
+    
+    border-top: 10px solid red;
+    border-bottom: 20px solid pink;
+    border-right: 30px solid blue;
+    border-left: 40px solid green;
+
+
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 300px;
+
+    
+    width: fit-content;
+   
+
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    padding-right: 220px;
+
+
+
+    margin:50px 100px 100px 100px ;
+    padding: 50px 50px 50px 50px;
+
+
+
+
+    
+}

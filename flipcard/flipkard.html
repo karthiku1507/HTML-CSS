@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #2874f0;
+            color: white;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .search-bar {
+            display: flex;
+            gap: 0.5rem;
+        }
+        .search-bar input {
+            padding: 0.5rem;
+            width: 300px;
+        }
+        .search-bar button {
+            padding: 0.5rem;
+            background-color: #ffa500;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        main {
+            padding: 1rem;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Flipkart Clone</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products..." />
+            <button>Search</button>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Flipkart Clone</h1>
+            <p>Shop the best products at unbeatable prices!</p>
+        </section>
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <h3>Product 1</h3>
+                    <p>Price: ₹1000</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Product 2</h3>
+                    <p>Price: ₹2000</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Product 3</h3>
+                    <p>Price: ₹3000</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Flipkart Clone. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
